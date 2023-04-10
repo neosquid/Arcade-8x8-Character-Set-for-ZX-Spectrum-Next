@@ -1,4 +1,4 @@
-; Arcade Font 8x8 pixels for Standard ZX Spectrum Character Set / Next
+; Arcade Font 8x8 pixels for Standard ZX Spectrum / Next Character Set
 
 ; characters included here are numbers, upper and lower case
 ; 0..9
