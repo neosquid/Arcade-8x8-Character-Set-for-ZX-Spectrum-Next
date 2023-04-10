@@ -185,8 +185,6 @@ _47_slash_fwd   ; '/'
 	db %00000000
 	db %00000000
 
-	ORG ARCADE_FONT_CHARACTER_DATA+(16*8) ;0..9 (32+16 = 48) 
-
 _48_0_arcade_8x8:
 	db %00111000
 	db %01001100
@@ -363,8 +361,6 @@ _64_at ; '@'
 	db %00000000
 	db %00000000
 	db %00000000
-
-	ORG ARCADE_FONT_CHARACTER_DATA+33*8 ; A..Z starts at Ascii 65 (33+32 = 65)
 
 _65_A_8x8_arcade
 	db %00111000
@@ -685,8 +681,6 @@ _96_gbp_pound   ; 'GBP'
 	db %00000000
 	db %00000000
 	db %00000000
-
-	ORG ARCADE_FONT_CHARACTER_DATA+65*8    ; a..z starts at character '65' A
 
 _97_a_8x8_arcade:
 	db %00000000
